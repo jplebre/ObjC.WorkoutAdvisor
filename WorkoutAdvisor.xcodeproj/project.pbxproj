@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0DE4EBF1C0EF37800FB7759 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE4EBE1C0EF37800FB7759 /* main.m */; };
-		B0DE4EC21C0EF37800FB7759 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE4EC11C0EF37800FB7759 /* AppDelegate.m */; };
-		B0DE4EC51C0EF37800FB7759 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE4EC41C0EF37800FB7759 /* ViewController.m */; };
-		B0DE4EC81C0EF37800FB7759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DE4EC61C0EF37800FB7759 /* Main.storyboard */; };
-		B0DE4ECA1C0EF37800FB7759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0DE4EC91C0EF37800FB7759 /* Assets.xcassets */; };
-		B0DE4ECD1C0EF37800FB7759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0DE4ECB1C0EF37800FB7759 /* LaunchScreen.storyboard */; };
+		B018B8EF1C0EF7290069CE22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B018B8E31C0EF7290069CE22 /* AppDelegate.m */; };
+		B018B8F01C0EF7290069CE22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B018B8E41C0EF7290069CE22 /* Info.plist */; };
+		B018B8F11C0EF7290069CE22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B018B8E51C0EF7290069CE22 /* main.m */; };
+		B018B8F21C0EF7290069CE22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B018B8E71C0EF7290069CE22 /* Assets.xcassets */; };
+		B018B8F31C0EF7290069CE22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B018B8E81C0EF7290069CE22 /* LaunchScreen.storyboard */; };
+		B018B8F41C0EF7290069CE22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B018B8EA1C0EF7290069CE22 /* Main.storyboard */; };
+		B018B8FC1C0EFDCD0069CE22 /* WAProgramSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B018B8FA1C0EFDCD0069CE22 /* WAProgramSelectorViewController.m */; };
+		B018B9041C0F00640069CE22 /* WAProgramSelectorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B018B9031C0F00640069CE22 /* WAProgramSelectorCell.m */; };
 		B0DE4ED81C0EF37900FB7759 /* WorkoutAdvisorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE4ED71C0EF37900FB7759 /* WorkoutAdvisorTests.m */; };
 		B0DE4EE31C0EF37900FB7759 /* WorkoutAdvisorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0DE4EE21C0EF37900FB7759 /* WorkoutAdvisorUITests.m */; };
 /* End PBXBuildFile section */
@@ -35,16 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B018B8E21C0EF7290069CE22 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B018B8E31C0EF7290069CE22 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B018B8E41C0EF7290069CE22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B018B8E51C0EF7290069CE22 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B018B8E71C0EF7290069CE22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B018B8E91C0EF7290069CE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B018B8EB1C0EF7290069CE22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B018B8F91C0EFDCD0069CE22 /* WAProgramSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAProgramSelectorViewController.h; sourceTree = "<group>"; };
+		B018B8FA1C0EFDCD0069CE22 /* WAProgramSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAProgramSelectorViewController.m; sourceTree = "<group>"; };
+		B018B9021C0F00640069CE22 /* WAProgramSelectorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAProgramSelectorCell.h; sourceTree = "<group>"; };
+		B018B9031C0F00640069CE22 /* WAProgramSelectorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAProgramSelectorCell.m; sourceTree = "<group>"; };
 		B0DE4EBA1C0EF37800FB7759 /* WorkoutAdvisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutAdvisor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0DE4EBE1C0EF37800FB7759 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0DE4EC01C0EF37800FB7759 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B0DE4EC11C0EF37800FB7759 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0DE4EC31C0EF37800FB7759 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0DE4EC41C0EF37800FB7759 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B0DE4EC71C0EF37800FB7759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B0DE4EC91C0EF37800FB7759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0DE4ECC1C0EF37800FB7759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B0DE4ECE1C0EF37800FB7759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0DE4ED31C0EF37900FB7759 /* WorkoutAdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutAdvisorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0DE4ED71C0EF37900FB7759 /* WorkoutAdvisorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkoutAdvisorTests.m; sourceTree = "<group>"; };
 		B0DE4ED91C0EF37900FB7759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +82,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B018B8E11C0EF7290069CE22 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B018B8E21C0EF7290069CE22 /* AppDelegate.h */,
+				B018B8E31C0EF7290069CE22 /* AppDelegate.m */,
+				B018B8E41C0EF7290069CE22 /* Info.plist */,
+				B018B8E51C0EF7290069CE22 /* main.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B018B8E61C0EF7290069CE22 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B018B8E71C0EF7290069CE22 /* Assets.xcassets */,
+				B018B8E81C0EF7290069CE22 /* LaunchScreen.storyboard */,
+				B018B8EA1C0EF7290069CE22 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B018B8EC1C0EF7290069CE22 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B018B8F81C0EFDCD0069CE22 /* Home */,
+				B018B8FB1C0EFDCD0069CE22 /* Settings */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B018B8F81C0EFDCD0069CE22 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B018B8F91C0EFDCD0069CE22 /* WAProgramSelectorViewController.h */,
+				B018B8FA1C0EFDCD0069CE22 /* WAProgramSelectorViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B018B8FB1C0EFDCD0069CE22 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B018B9011C0F00640069CE22 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B018B9021C0F00640069CE22 /* WAProgramSelectorCell.h */,
+				B018B9031C0F00640069CE22 /* WAProgramSelectorCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		B0DE4EB11C0EF37800FB7759 = {
 			isa = PBXGroup;
 			children = (
@@ -101,25 +160,12 @@
 		B0DE4EBC1C0EF37800FB7759 /* WorkoutAdvisor */ = {
 			isa = PBXGroup;
 			children = (
-				B0DE4EC01C0EF37800FB7759 /* AppDelegate.h */,
-				B0DE4EC11C0EF37800FB7759 /* AppDelegate.m */,
-				B0DE4EC31C0EF37800FB7759 /* ViewController.h */,
-				B0DE4EC41C0EF37800FB7759 /* ViewController.m */,
-				B0DE4EC61C0EF37800FB7759 /* Main.storyboard */,
-				B0DE4EC91C0EF37800FB7759 /* Assets.xcassets */,
-				B0DE4ECB1C0EF37800FB7759 /* LaunchScreen.storyboard */,
-				B0DE4ECE1C0EF37800FB7759 /* Info.plist */,
-				B0DE4EBD1C0EF37800FB7759 /* Supporting Files */,
+				B018B9011C0F00640069CE22 /* Cells */,
+				B018B8E11C0EF7290069CE22 /* App */,
+				B018B8E61C0EF7290069CE22 /* Resources */,
+				B018B8EC1C0EF7290069CE22 /* ViewControllers */,
 			);
 			path = WorkoutAdvisor;
-			sourceTree = "<group>";
-		};
-		B0DE4EBD1C0EF37800FB7759 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B0DE4EBE1C0EF37800FB7759 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		B0DE4ED61C0EF37900FB7759 /* WorkoutAdvisorTests */ = {
@@ -243,9 +289,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0DE4ECD1C0EF37800FB7759 /* LaunchScreen.storyboard in Resources */,
-				B0DE4ECA1C0EF37800FB7759 /* Assets.xcassets in Resources */,
-				B0DE4EC81C0EF37800FB7759 /* Main.storyboard in Resources */,
+				B018B8F21C0EF7290069CE22 /* Assets.xcassets in Resources */,
+				B018B8F41C0EF7290069CE22 /* Main.storyboard in Resources */,
+				B018B8F31C0EF7290069CE22 /* LaunchScreen.storyboard in Resources */,
+				B018B8F01C0EF7290069CE22 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0DE4EC51C0EF37800FB7759 /* ViewController.m in Sources */,
-				B0DE4EC21C0EF37800FB7759 /* AppDelegate.m in Sources */,
-				B0DE4EBF1C0EF37800FB7759 /* main.m in Sources */,
+				B018B8FC1C0EFDCD0069CE22 /* WAProgramSelectorViewController.m in Sources */,
+				B018B8F11C0EF7290069CE22 /* main.m in Sources */,
+				B018B8EF1C0EF7290069CE22 /* AppDelegate.m in Sources */,
+				B018B9041C0F00640069CE22 /* WAProgramSelectorCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +356,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0DE4EC61C0EF37800FB7759 /* Main.storyboard */ = {
+		B018B8E81C0EF7290069CE22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B0DE4EC71C0EF37800FB7759 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B0DE4ECB1C0EF37800FB7759 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0DE4ECC1C0EF37800FB7759 /* Base */,
+				B018B8E91C0EF7290069CE22 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B018B8EA1C0EF7290069CE22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B018B8EB1C0EF7290069CE22 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WorkoutAdvisor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WorkoutAdvisor/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jplebre.WorkoutAdvisor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = WorkoutAdvisor/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/WorkoutAdvisor/App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jplebre.WorkoutAdvisor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +546,7 @@
 				B0DE4EE91C0EF37900FB7759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0DE4EEA1C0EF37900FB7759 /* Build configuration list for PBXNativeTarget "WorkoutAdvisorTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +555,7 @@
 				B0DE4EEC1C0EF37900FB7759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0DE4EED1C0EF37900FB7759 /* Build configuration list for PBXNativeTarget "WorkoutAdvisorUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +564,7 @@
 				B0DE4EEF1C0EF37900FB7759 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

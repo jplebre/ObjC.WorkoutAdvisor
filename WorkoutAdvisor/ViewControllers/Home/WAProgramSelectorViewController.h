@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WAProgramSelectorViewController.h
 //  WorkoutAdvisor
 //
 //  Created by João Lebre on 02/12/2015.
@@ -8,8 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface WAProgramSelectorViewController : UIViewController
 @end
-
