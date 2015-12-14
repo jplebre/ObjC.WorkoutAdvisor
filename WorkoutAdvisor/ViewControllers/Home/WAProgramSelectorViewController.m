@@ -10,7 +10,7 @@
 #import "WAProgramSelectorCell.h"
 
 @interface WAProgramSelectorViewController () <UITableViewDelegate, UITableViewDataSource>
-@property (nonatomic, retain) IBOutlet UITableView *tableView;
+@property (nonatomic, weak) IBOutlet UITableView *tableView;
 @end
 
 NSString *const kProgramSelectionCell = @"ProgramSelectionCell";
